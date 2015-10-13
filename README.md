@@ -14,6 +14,7 @@ For Project 1 - clustering
 
 
 For Project 2 - classification
+
 	- About output file: some desired output files and numbers are missing, read the report for more details.
 		+ HTML files: the name structure is output<Method>.html, if the method is SVM it also include the degree of polynomial
 		+ CSV files:
@@ -23,10 +24,12 @@ For Project 2 - classification
 			-> Project2-classification.Rproj and .Rdata: the generated files when I create project in RStudio
 			-> .Rhistory: the history of runned code
 			-> report.docx or report.pdf (recommended): the report file
+
 	- Some limitation: 
 		+ I can't plot the table with some empty elements into graph. Moreover, R intepreter autofill them (if missing) with the first element in the row so I have to edit them a little bit.
 		+ RStudio is always run in one core of CPU.
 		+ Some algorithm is very slow and comsume a lot of memory (I disable almost everything, including Windows Explorer, to run boosting algorithm). 
-		+ Be aware about the path, since RStudio always point working directory to current project folder. If you just use R and change the path, the category (that is generated from file path) can be load incorrectly
+		+ Be aware about the path, in this project I use relative path for input and out. Since RStudio always point working directory to current project folder, if you just use R and change the path, the category (that is generated from file path) can be load incorrectly.
+
 	- About used software: LibreOffice, Google Docs and Microsoft Office for draw graphss and writing report; RStudio for developing code; Cyberfox, Chrome for viewing html; Notepad++ for writing editing README. 
 	
